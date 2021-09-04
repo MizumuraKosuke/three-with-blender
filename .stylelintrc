@@ -9,13 +9,13 @@
     "at-rule-no-vendor-prefix": true,
     "at-rule-semicolon-space-before": "never",
     "at-rule-no-unknown": [ true, {
-      ignoreAtRules: [
+      "ignoreAtRules": [
         "tailwind",
         "apply",
         "variants",
         "responsive",
-        "screen",
-      ],
+        "screen"
+      ]
     }],
     "block-closing-brace-empty-line-before": null,
     "block-closing-brace-newline-after": null,
@@ -262,13 +262,13 @@
     "rule-empty-line-before": null,
     "scss/dollar-variable-default": [true, { "ignore": "local" }],
     "scss/at-rule-no-unknown": [ true, {
-      ignoreAtRules: [
+      "ignoreAtRules": [
         "tailwind",
         "apply",
         "variants",
         "responsive",
-        "screen",
-      ],
+        "screen"
+      ]
     }],
     "selector-attribute-quotes": "always",
     "selector-list-comma-newline-after": "always",
@@ -287,7 +287,7 @@
     "selector-no-qualifying-type": [ true, { "ignore": ["attribute", "class"] } ],
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-no-unknown": [true, {
-      ignorePseudoClasses: ["global"]
+      "ignorePseudoClasses": ["global"]
     }],
     "string-quotes": "double",
     "value-keyword-case": "lower",

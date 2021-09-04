@@ -46,11 +46,13 @@ const Home = () => {
       </Head>
       <main className="w-screen h-screen">
         <Canvas
-          gl={{
-            antialias: true,
-            premultipliedAlpha: false,
-            preserveDrawingBuffer: true,
-          }}
+          gl={
+            {
+              antialias: true,
+              premultipliedAlpha: false,
+              preserveDrawingBuffer: true,
+            }
+          }
         >
           <Camera />
           <ambientLight />
