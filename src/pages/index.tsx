@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Threee.js with Blender</title>
         <meta name="description" content="Threee.js with Blender" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
